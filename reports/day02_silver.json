@@ -1,0 +1,88 @@
+{
+  "artifacts": {
+    "commits": [
+      {
+        "path": "mini_lakehouse/silver/trips/_delta_log/00000000000000000000.json",
+        "sha256": "4afc7f66048ef4a91a42fa7633a822d8c05186be3397160ff25d94b5b6a033cd"
+      },
+      {
+        "path": "mini_lakehouse/silver/trips/_delta_log/00000000000000000001.json",
+        "sha256": "766370676cf8df8a3cf029245f6741b60c21571fd63f02e0b4efe399e4bc6b90"
+      }
+    ],
+    "data_files": [
+      {
+        "path": "mini_lakehouse/silver/trips/part-00000-131a2141-895d-495c-9656-6aad9c01db33-c000.snappy.parquet",
+        "sha256": "5f3a5cf2e896130b7e3b8ea8de26dcf64343d904fe5fa2cdb0321b239ce28661"
+      },
+      {
+        "path": "mini_lakehouse/silver/trips/part-00000-7fb7efd3-704c-4302-8e76-45ddc14a31fe-c000.snappy.parquet",
+        "sha256": "6da4fcdf0d9fed6235fe519539e74e0c6bc6d8a02901aec8b8c336cc740c8e83"
+      },
+      {
+        "path": "mini_lakehouse/silver/trips/part-00000-86c32b77-283f-45c9-b6d0-01d24d7006cd-c000.snappy.parquet",
+        "sha256": "d06b628887a1de75f0c4f0d4228844899a5b7c7728e2022407c8b7f65c2cdc2f"
+      },
+      {
+        "path": "mini_lakehouse/silver/trips/part-00000-ca5e8df4-13c3-4493-8b92-d4204fd67c96-c000.snappy.parquet",
+        "sha256": "5f3a5cf2e896130b7e3b8ea8de26dcf64343d904fe5fa2cdb0321b239ce28661"
+      },
+      {
+        "path": "mini_lakehouse/silver/trips/part-00000-d781394b-1eb2-4faa-843e-a8ef3205ad0b-c000.snappy.parquet",
+        "sha256": "5f3a5cf2e896130b7e3b8ea8de26dcf64343d904fe5fa2cdb0321b239ce28661"
+      }
+    ]
+  },
+  "checks": {
+    "actual_delta_files": true,
+    "all_scenarios_match_independent_oracle": true,
+    "business_keys_unique": true,
+    "late_rows_retained": true,
+    "replay_preserves_business_content": true
+  },
+  "dataset_manifest_sha256": "20a7e45bed2980b9394c10e8532da3b9f40f614366bb2df26a88610253e768e3",
+  "dbt_executed": false,
+  "engine_executed": true,
+  "final_fare_sar": "1875.60",
+  "run_id": "77728a43df794118a0b716ff728485e3",
+  "scope": "DAY02_SILVER_ENGINE",
+  "single_writer_teaching_scope": true,
+  "spark_version": "3.5.8",
+  "stages": [
+    {
+      "bronze_receipts": 144,
+      "digest": "436a9e8c4f7b17834b9170a77284f99176d913092d73d69d03e457100e6f423e",
+      "silver_rows": 72,
+      "stage": "base_and_replay",
+      "version": 0
+    },
+    {
+      "bronze_receipts": 144,
+      "digest": "436a9e8c4f7b17834b9170a77284f99176d913092d73d69d03e457100e6f423e",
+      "silver_rows": 72,
+      "stage": "same_input_rerun",
+      "version": 0
+    },
+    {
+      "bronze_receipts": 147,
+      "digest": "0d16e2795620ae0c0f54d3fcd52a5b13fb2c2a47cd4d0c42c8ddb195f19bc6e0",
+      "silver_rows": 75,
+      "stage": "late_batch",
+      "version": 1
+    },
+    {
+      "bronze_receipts": 147,
+      "digest": "0d16e2795620ae0c0f54d3fcd52a5b13fb2c2a47cd4d0c42c8ddb195f19bc6e0",
+      "silver_rows": 75,
+      "stage": "same_batch_retry",
+      "version": 1
+    },
+    {
+      "bronze_receipts": 150,
+      "digest": "0d16e2795620ae0c0f54d3fcd52a5b13fb2c2a47cd4d0c42c8ddb195f19bc6e0",
+      "silver_rows": 75,
+      "stage": "intentional_redelivery",
+      "version": 1
+    }
+  ]
+}

@@ -1,9 +1,155 @@
-<table dir="ltr" width="100%"><tr><td width="50%" dir="ltr" lang="en" align="left" valign="top"><p>SDAIA Academy · Learner materials</p><h1>Modern Data Engineering<br>for AI Systems</h1><h2>MASAR · Mini-Lakehouse</h2><p><strong>Meaad Al-Marri</strong><br>SDA-DSC-214 · Five days · Eight cumulative labs</p></td><td width="50%" dir="rtl" lang="ar" align="right" valign="top"><p>أكاديمية سدايا · مواد المتدرب</p><h1>هندسة البيانات الحديثة<br>لأنظمة الذكاء الاصطناعي</h1><h2>مسار · بيئة بيانات مصغرة</h2><p><strong>ميعاد المري</strong><br>SDA-DSC-214 · خمسة أيام · ثمانية لابات تراكمية</p></td></tr></table>
+# Masar Mini-Lakehouse — Danah Almudaifer
 
-<table dir="ltr" width="100%"><tr><td width="50%" dir="ltr" lang="en" align="left" valign="top"><h2>What you will build</h2><p>Turn small synthetic trip, driver and location feeds into a reliable data pipeline: preserve the source, build Silver, manage changes, receive events, check quality and deliver reporting and AI-ready tables.</p><p><strong>The labs are your final project.</strong> Complete them in sequence; no separate final assignment is added.</p></td><td width="50%" dir="rtl" lang="ar" align="right" valign="top"><h2>ماذا ستبني؟</h2><p>حوّل ملفات اصطناعية صغيرة للرحلات والسائقين والمواقع إلى خط بيانات موثوق: احفظ المصدر، وابنِ Silver، وأدر التغييرات، واستقبل الأحداث، وافحص الجودة، ثم جهّز جداول التقارير والذكاء الاصطناعي.</p><p><strong>اللابات هي مشروعك النهائي.</strong> أكملها بالتتابع دون تكليف نهائي منفصل.</p></td></tr></table>
+Masar Mini-Lakehouse is my end-to-end data-engineering capstone for a fictional mobility operator. It builds one reproducible lineage from raw batch and GPS event feeds into trustworthy reporting tables and point-in-time-correct AI feature tables. The project uses **synthetic data only**.
 
-<table dir="ltr" width="100%"><tr><td width="50%" dir="ltr" lang="en" align="left" valign="top"><h2>Your five-day path</h2><p><strong><a href="day01/README.md">Day 1</a></strong> · Foundations and Bronze</p><p><strong><a href="day02/README.md">Day 2</a></strong> · ELT and Silver</p><p><strong><a href="day03/README.md">Day 3</a></strong> · Delta transactions and maintenance</p><p><strong><a href="day04/README.md">Day 4</a></strong> · Streaming, quality and governance</p><p><strong><a href="day05/README.md">Day 5</a></strong> · Gold, AI/BI and project submission</p></td><td width="50%" dir="rtl" lang="ar" align="right" valign="top"><h2>مسارك في الأيام الخمسة</h2><p><strong><a href="day01/README.md">اليوم 1</a></strong> · الأساسيات وطبقة Bronze</p><p><strong><a href="day02/README.md">اليوم 2</a></strong> · التحويل وبناء Silver</p><p><strong><a href="day03/README.md">اليوم 3</a></strong> · معاملات Delta والصيانة</p><p><strong><a href="day04/README.md">اليوم 4</a></strong> · التدفق والجودة والحوكمة</p><p><strong><a href="day05/README.md">اليوم 5</a></strong> · طبقة Gold ومخرجات AI وBI وتسليم المشروع</p></td></tr></table>
+## Programme
+Developed as part of **Modern Data Engineering for AI Systems (SDA-DSC-214)** at **SDAIA Academy**.  
+SDAIA Academy: https://github.com/SDAIAAcademy  
+#SDAIAAcademy
 
-<table dir="ltr" width="100%"><tr><td width="50%" dir="ltr" lang="en" align="left" valign="top"><h2>Before you start</h2><p><a href="docs/SETUP.md">Prepare your environment</a> · <a href="TRAINING_CONTENT.md">Learning outcomes</a> · <a href="data/DICTIONARY.md">Data dictionary</a> · <a href="project/SUBMISSION.md">Submission guide</a>.</p><p>Use the same 72 base trips, 6 drivers and 216 base location events throughout the course, with the supplied late/replay/correction fixtures. Data and code are shared once; each day contains its own learning materials. No paid API or GPU is required.</p></td><td width="50%" dir="rtl" lang="ar" align="right" valign="top"><h2>قبل أن تبدأ</h2><p><a href="docs/SETUP.md">جهّز بيئتك</a> · <a href="TRAINING_CONTENT.md">مخرجات التعلم</a> · <a href="data/DICTIONARY.md">قاموس البيانات</a> · <a href="project/SUBMISSION.md">دليل التسليم</a>.</p><p>استخدم الرحلات الأساسية الـ72 والسائقين الستة وأحداث المواقع الـ216 طوال الدورة، مع ملفات التأخر والإعادة والتصحيح المرفقة. تُحفظ البيانات والأكواد المشتركة مرة واحدة، ويضم كل يوم مواده التعليمية. لا تحتاج إلى API مدفوع أو GPU.</p></td></tr></table>
+Course materials by Meaad Al-Marri. Original course repository attribution is preserved.
 
-<table dir="ltr" width="100%"><tr><td width="50%" dir="ltr" lang="en" align="left" valign="top"><p><a href="docs/ADMINISTRATION.md">Participation and support</a> · <a href="docs/GIT_WORKFLOW.md">Git guide</a> · <a href="docs/TROUBLESHOOTING.md">Troubleshooting</a> · <a href="docs/VERIFICATION.md">Execution record</a> · <a href="https://github.com/SDAIAAcademy">SDAIA Academy</a></p><p>At final submission, name the programme and <strong>SDAIA Academy</strong> in your project README, link to <a href="https://github.com/SDAIAAcademy">the Academy</a>, and include <code>#SDAIAAcademy</code> in the README and your submission message. Follow <a href="project/SUBMISSION.md">the submission guide</a>. Optional extensions and repository stars are not passing conditions. Follow the organizer’s announced attendance, deadline and submission rules.</p></td><td width="50%" dir="rtl" lang="ar" align="right" valign="top"><p><a href="docs/ADMINISTRATION.md">المشاركة والدعم</a> · <a href="docs/GIT_WORKFLOW.md">دليل Git</a> · <a href="docs/TROUBLESHOOTING.md">معالجة الأخطاء</a> · <a href="docs/VERIFICATION.md">سجل التنفيذ</a> · <a href="https://github.com/SDAIAAcademy">أكاديمية سدايا</a></p><p>عند التسليم النهائي، اذكر اسم البرنامج و<strong>أكاديمية سدايا</strong> في README مشروعك، وأدرج <a href="https://github.com/SDAIAAcademy">رابط الأكاديمية</a> والوسم <code>#SDAIAAcademy</code> داخل README وفي رسالة التسليم. اتبع <a href="project/SUBMISSION.md">دليل التسليم</a>. الامتدادات الاختيارية ونجوم المستودع ليست شروط نجاح. اتبع ما تعلنه الجهة المنظمة بشأن الحضور والمواعيد وقناة التسليم.</p></td></tr></table>
+## Architecture
+
+```text
+Synthetic CSV / NDJSON
+        |
+        v
+     Bronze
+append-only raw deliveries
+source + ingestion metadata
+        |
+        v
+   Staging / Silver
+typed + normalized + validated
+one trusted business trip
+        |
+        +-------------------+
+        |                   |
+        v                   v
+ Kafka GPS events       Quality gate
+ Structured Streaming   Great Expectations
+ checkpoints            quarantine + reasons
+        |                   |
+        +---------+---------+
+                  |
+                  v
+                Gold
+          /               \
+         v                 v
+       BI                  AI
+ reporting grain     point-in-time features
+```
+
+### Layer guarantees
+- **Bronze:** append-only archive of what arrived; replay is preserved.
+- **Silver:** typed, normalized, driver-validated and deduplicated to one trusted trip definition.
+- **Streaming:** real Kafka + Spark Structured Streaming with persistent checkpoint evidence.
+- **Quality:** failed candidates are quarantined and cannot promote.
+- **Gold/BI:** explicit reporting grains and reconciled totals.
+- **AI:** feature availability is checked at the prediction cut-off and future labels are not fabricated.
+
+## Environment verified in my Colab run
+- Python **3.11.13**
+- Java **17**
+- PySpark **3.5.8**
+- Delta Spark **3.3.3**
+- py4j **0.10.9.9**
+- Kafka **4.0.2**
+- kafka-python **2.2.15**
+- Great Expectations **1.7.0**
+- pandas **2.2.3**
+- dbt-core **1.9.8**
+- dbt-spark **1.9.1**
+
+## How to run
+
+Clone my fork and use the `develop` branch:
+
+```bash
+git clone https://github.com/Danahadel/masar-modern-data-engineering_By_DanahAlmudaifer.git
+cd masar-modern-data-engineering_By_DanahAlmudaifer
+git switch develop
+```
+
+Install the course dependencies using the supplied requirements files, then execute the notebooks in dependency order:
+
+```text
+1. day01/STUDENT.ipynb  -> Labs 01–02
+2. day02/STUDENT.ipynb  -> Lab 03
+3. day03/STUDENT.ipynb  -> Lab 04
+4. day04/STUDENT.ipynb  -> Labs 05–06
+5. day05/STUDENT.ipynb  -> Labs 07–08
+```
+
+Between separate sessions, restore the prior day's supplied handoff workspace before continuing. The notebooks are committed with their observed outputs retained as assessment evidence.
+
+## Results
+
+### Source and Bronze
+- 72 base trips
+- 6 drivers
+- 216 GPS events
+- replayed trip deliveries: **144 rows**
+- distinct base business trips remain **72**
+
+### Silver
+- staging trips: 144
+- staging drivers: 6
+- staging GPS events: 216
+- late batch produces **75 trusted trips**
+- late replay remains **75** logical rows
+
+### Streaming
+Transport rows by phase: **216, 216, 218, 219**  
+Unique event IDs by phase: **216, 216, 216, 217**
+
+The restart/checkpoint, offset reconciliation, source preservation and late-event checks passed.
+
+### Quality gate
+- invalid supplied quality cases quarantined: **7**
+- approved trusted rows: **75**
+- failed candidate promotion blocked
+
+### BI reconciliation
+
+| Metric | Trusted/Gold | BI | Difference |
+|---|---:|---:|---:|
+| Trip count | 75 | 75 | 0 |
+| Fare total (SAR) | 1880.60 | 1880.60 | 0.00 |
+
+Zone-level BI output:
+
+| Zone | Trips | Fare SAR |
+|---|---:|---:|
+| Dammam | 25 | 670.40 |
+| Jeddah | 25 | 625.20 |
+| Riyadh | 25 | 585.00 |
+
+### AI point-in-time behavior
+The feature output records `as_of_utc`, history window and maximum source availability. The observed future label example remains `UNOBSERVED` with `target_trip_count=None`, rather than leaking future information.
+
+## Decisions
+See [DECISIONS.md](DECISIONS.md). Important choices include:
+1. append-only Bronze,
+2. deterministic Silver business-key/revision handling,
+3. quality promotion that fails closed,
+4. checkpoint-aware streaming recovery,
+5. point-in-time AI features.
+
+## Governance
+See [GOVERNANCE.md](GOVERNANCE.md).
+
+## Benchmarks
+See [BENCHMARKS.md](BENCHMARKS.md).
+
+## Limitations
+- The dataset is small and synthetic: 72 base trips, 6 drivers and 216 base GPS events.
+- The local scan timings are learning evidence, not production performance benchmarks.
+- A successful local Kafka exercise demonstrates the tested restart/replay behavior; it is not evidence about every distributed Kafka failure mode.
+- The project is intentionally a data pipeline, not a production ride-booking application or paid cloud deployment.
+
+## Credits
+This project was developed as part of **Modern Data Engineering for AI Systems (SDA-DSC-214) at SDAIA Academy** — https://github.com/SDAIAAcademy. **#SDAIAAcademy**
+
+Course materials by **Meaad Al-Marri**. Attribution for reused course material is preserved.

@@ -1,0 +1,727 @@
+{
+  "after_correction": {
+    "business_digest": "1321d375742d806a1f0fef82be9e2862af04f5d18f3a976792a6b1d9aa1b4383",
+    "rows": 75,
+    "schema": [
+      [
+        "trip_id",
+        "string"
+      ],
+      [
+        "driver_id",
+        "string"
+      ],
+      [
+        "city",
+        "string"
+      ],
+      [
+        "start_utc",
+        "timestamp"
+      ],
+      [
+        "end_utc",
+        "timestamp"
+      ],
+      [
+        "trip_date_local",
+        "date"
+      ],
+      [
+        "fare_sar",
+        "decimal(12,2)"
+      ],
+      [
+        "distance_km",
+        "decimal(12,2)"
+      ],
+      [
+        "duration_seconds",
+        "bigint"
+      ],
+      [
+        "vehicle_type",
+        "string"
+      ],
+      [
+        "driver_rating",
+        "decimal(3,1)"
+      ],
+      [
+        "source_revision",
+        "int"
+      ],
+      [
+        "_source_file",
+        "string"
+      ],
+      [
+        "_source_sha256",
+        "string"
+      ],
+      [
+        "_payload_hash",
+        "string"
+      ]
+    ],
+    "version": 2
+  },
+  "after_replay": {
+    "business_digest": "1321d375742d806a1f0fef82be9e2862af04f5d18f3a976792a6b1d9aa1b4383",
+    "rows": 75,
+    "schema": [
+      [
+        "trip_id",
+        "string"
+      ],
+      [
+        "driver_id",
+        "string"
+      ],
+      [
+        "city",
+        "string"
+      ],
+      [
+        "start_utc",
+        "timestamp"
+      ],
+      [
+        "end_utc",
+        "timestamp"
+      ],
+      [
+        "trip_date_local",
+        "date"
+      ],
+      [
+        "fare_sar",
+        "decimal(12,2)"
+      ],
+      [
+        "distance_km",
+        "decimal(12,2)"
+      ],
+      [
+        "duration_seconds",
+        "bigint"
+      ],
+      [
+        "vehicle_type",
+        "string"
+      ],
+      [
+        "driver_rating",
+        "decimal(3,1)"
+      ],
+      [
+        "source_revision",
+        "int"
+      ],
+      [
+        "_source_file",
+        "string"
+      ],
+      [
+        "_source_sha256",
+        "string"
+      ],
+      [
+        "_payload_hash",
+        "string"
+      ]
+    ],
+    "version": 3
+  },
+  "after_stale_replay": {
+    "business_digest": "1321d375742d806a1f0fef82be9e2862af04f5d18f3a976792a6b1d9aa1b4383",
+    "rows": 75,
+    "schema": [
+      [
+        "trip_id",
+        "string"
+      ],
+      [
+        "driver_id",
+        "string"
+      ],
+      [
+        "city",
+        "string"
+      ],
+      [
+        "start_utc",
+        "timestamp"
+      ],
+      [
+        "end_utc",
+        "timestamp"
+      ],
+      [
+        "trip_date_local",
+        "date"
+      ],
+      [
+        "fare_sar",
+        "decimal(12,2)"
+      ],
+      [
+        "distance_km",
+        "decimal(12,2)"
+      ],
+      [
+        "duration_seconds",
+        "bigint"
+      ],
+      [
+        "vehicle_type",
+        "string"
+      ],
+      [
+        "driver_rating",
+        "decimal(3,1)"
+      ],
+      [
+        "source_revision",
+        "int"
+      ],
+      [
+        "_source_file",
+        "string"
+      ],
+      [
+        "_source_sha256",
+        "string"
+      ],
+      [
+        "_payload_hash",
+        "string"
+      ]
+    ],
+    "version": 4
+  },
+  "artifacts": {
+    "constraints_copy": {
+      "commits": [
+        {
+          "path": "sandbox/day03/constraints_463706b500c3453d8dee34c2f37af97a/_delta_log/00000000000000000000.json",
+          "sha256": "bb9d5cd5ca78c1393ffbb8b23dcb5b33c0e30cc0724eb33b5c4c12ef84890ded"
+        },
+        {
+          "path": "sandbox/day03/constraints_463706b500c3453d8dee34c2f37af97a/_delta_log/00000000000000000001.json",
+          "sha256": "4b6baf1d59efef32fc42b66c427a041befc7b4945322175b0f3f95e1b326a740"
+        },
+        {
+          "path": "sandbox/day03/constraints_463706b500c3453d8dee34c2f37af97a/_delta_log/00000000000000000002.json",
+          "sha256": "859b72d2871b798307910e58bc01c270261559ae0648792b47d443d52615d161"
+        }
+      ],
+      "data_files": [
+        {
+          "path": "sandbox/day03/constraints_463706b500c3453d8dee34c2f37af97a/part-00000-95fe4b57-ecf3-4c50-91fe-276e23b4f474-c000.snappy.parquet",
+          "sha256": "f6ca27caf2255c393fdb6d9c9d6d1374a55d67602dcb4a43e0bbd021e22ca039"
+        },
+        {
+          "path": "sandbox/day03/constraints_463706b500c3453d8dee34c2f37af97a/part-00000-c84e4ee9-5199-467c-be65-054a299c9148-c000.snappy.parquet",
+          "sha256": "eda3374c4a8df9e04f073f6e5b26cf4b0cd180008430bc2a08ad5fdc021b22d1"
+        },
+        {
+          "path": "sandbox/day03/constraints_463706b500c3453d8dee34c2f37af97a/part-00001-e8be4f37-22b8-49a2-9261-d31d58fd3d06-c000.snappy.parquet",
+          "sha256": "5f3a5cf2e896130b7e3b8ea8de26dcf64343d904fe5fa2cdb0321b239ce28661"
+        }
+      ]
+    },
+    "silver": {
+      "commits": [
+        {
+          "path": "mini_lakehouse/silver/trips/_delta_log/00000000000000000000.json",
+          "sha256": "4afc7f66048ef4a91a42fa7633a822d8c05186be3397160ff25d94b5b6a033cd"
+        },
+        {
+          "path": "mini_lakehouse/silver/trips/_delta_log/00000000000000000001.json",
+          "sha256": "766370676cf8df8a3cf029245f6741b60c21571fd63f02e0b4efe399e4bc6b90"
+        },
+        {
+          "path": "mini_lakehouse/silver/trips/_delta_log/00000000000000000002.json",
+          "sha256": "b1215f35835c31bfebd5ae3dea9a6af15cfb2769660b2a8756d541022f8d3589"
+        },
+        {
+          "path": "mini_lakehouse/silver/trips/_delta_log/00000000000000000003.json",
+          "sha256": "ef0f7943e129b1d5b63f240bb948495d6cff8dfb11ae292b6fb317d5597c72c6"
+        },
+        {
+          "path": "mini_lakehouse/silver/trips/_delta_log/00000000000000000004.json",
+          "sha256": "cd566c16c96ef1bd836cb93460d6f25417763474da613088436fcc66426f3a0f"
+        }
+      ],
+      "data_files": [
+        {
+          "path": "mini_lakehouse/silver/trips/part-00000-131a2141-895d-495c-9656-6aad9c01db33-c000.snappy.parquet",
+          "sha256": "5f3a5cf2e896130b7e3b8ea8de26dcf64343d904fe5fa2cdb0321b239ce28661"
+        },
+        {
+          "path": "mini_lakehouse/silver/trips/part-00000-42815391-9a8d-417d-8f66-6a5ad1105f63-c000.snappy.parquet",
+          "sha256": "9ab305dffa05bf48bb024e2e4d5f20186271ee782d013ad3810ff61d0d8e1724"
+        },
+        {
+          "path": "mini_lakehouse/silver/trips/part-00000-4bd796b3-61ff-4e20-a026-dc3ced5bea7b-c000.snappy.parquet",
+          "sha256": "f6ca27caf2255c393fdb6d9c9d6d1374a55d67602dcb4a43e0bbd021e22ca039"
+        },
+        {
+          "path": "mini_lakehouse/silver/trips/part-00000-7fb7efd3-704c-4302-8e76-45ddc14a31fe-c000.snappy.parquet",
+          "sha256": "6da4fcdf0d9fed6235fe519539e74e0c6bc6d8a02901aec8b8c336cc740c8e83"
+        },
+        {
+          "path": "mini_lakehouse/silver/trips/part-00000-86c32b77-283f-45c9-b6d0-01d24d7006cd-c000.snappy.parquet",
+          "sha256": "d06b628887a1de75f0c4f0d4228844899a5b7c7728e2022407c8b7f65c2cdc2f"
+        },
+        {
+          "path": "mini_lakehouse/silver/trips/part-00000-b91c4e94-779c-477a-8fda-b434737e48aa-c000.snappy.parquet",
+          "sha256": "9ab305dffa05bf48bb024e2e4d5f20186271ee782d013ad3810ff61d0d8e1724"
+        },
+        {
+          "path": "mini_lakehouse/silver/trips/part-00000-ca5e8df4-13c3-4493-8b92-d4204fd67c96-c000.snappy.parquet",
+          "sha256": "5f3a5cf2e896130b7e3b8ea8de26dcf64343d904fe5fa2cdb0321b239ce28661"
+        },
+        {
+          "path": "mini_lakehouse/silver/trips/part-00000-d781394b-1eb2-4faa-843e-a8ef3205ad0b-c000.snappy.parquet",
+          "sha256": "5f3a5cf2e896130b7e3b8ea8de26dcf64343d904fe5fa2cdb0321b239ce28661"
+        }
+      ]
+    }
+  },
+  "before": {
+    "business_digest": "0d16e2795620ae0c0f54d3fcd52a5b13fb2c2a47cd4d0c42c8ddb195f19bc6e0",
+    "rows": 75,
+    "schema": [
+      [
+        "trip_id",
+        "string"
+      ],
+      [
+        "driver_id",
+        "string"
+      ],
+      [
+        "city",
+        "string"
+      ],
+      [
+        "start_utc",
+        "timestamp"
+      ],
+      [
+        "end_utc",
+        "timestamp"
+      ],
+      [
+        "trip_date_local",
+        "date"
+      ],
+      [
+        "fare_sar",
+        "decimal(12,2)"
+      ],
+      [
+        "distance_km",
+        "decimal(12,2)"
+      ],
+      [
+        "duration_seconds",
+        "bigint"
+      ],
+      [
+        "vehicle_type",
+        "string"
+      ],
+      [
+        "driver_rating",
+        "decimal(3,1)"
+      ],
+      [
+        "source_revision",
+        "int"
+      ],
+      [
+        "_source_file",
+        "string"
+      ],
+      [
+        "_source_sha256",
+        "string"
+      ],
+      [
+        "_payload_hash",
+        "string"
+      ]
+    ],
+    "version": 1
+  },
+  "checks": {
+    "actual_prior_version_read": true,
+    "business_rows_stay_75": true,
+    "mixed_valid_invalid_batch_rejected_atomically": true,
+    "native_correction_matches_source_expectation": true,
+    "replay_and_stale_delivery_preserve_values": true,
+    "same_revision_conflict_rejected": true
+  },
+  "constraint_probe": {
+    "after": {
+      "business_digest": "1321d375742d806a1f0fef82be9e2862af04f5d18f3a976792a6b1d9aa1b4383",
+      "rows": 75,
+      "schema": [
+        [
+          "trip_id",
+          "string"
+        ],
+        [
+          "driver_id",
+          "string"
+        ],
+        [
+          "city",
+          "string"
+        ],
+        [
+          "start_utc",
+          "timestamp"
+        ],
+        [
+          "end_utc",
+          "timestamp"
+        ],
+        [
+          "trip_date_local",
+          "date"
+        ],
+        [
+          "fare_sar",
+          "decimal(12,2)"
+        ],
+        [
+          "distance_km",
+          "decimal(12,2)"
+        ],
+        [
+          "duration_seconds",
+          "bigint"
+        ],
+        [
+          "vehicle_type",
+          "string"
+        ],
+        [
+          "driver_rating",
+          "decimal(3,1)"
+        ],
+        [
+          "source_revision",
+          "int"
+        ],
+        [
+          "_source_file",
+          "string"
+        ],
+        [
+          "_source_sha256",
+          "string"
+        ],
+        [
+          "_payload_hash",
+          "string"
+        ]
+      ],
+      "version": 2
+    },
+    "before": {
+      "business_digest": "1321d375742d806a1f0fef82be9e2862af04f5d18f3a976792a6b1d9aa1b4383",
+      "rows": 75,
+      "schema": [
+        [
+          "trip_id",
+          "string"
+        ],
+        [
+          "driver_id",
+          "string"
+        ],
+        [
+          "city",
+          "string"
+        ],
+        [
+          "start_utc",
+          "timestamp"
+        ],
+        [
+          "end_utc",
+          "timestamp"
+        ],
+        [
+          "trip_date_local",
+          "date"
+        ],
+        [
+          "fare_sar",
+          "decimal(12,2)"
+        ],
+        [
+          "distance_km",
+          "decimal(12,2)"
+        ],
+        [
+          "duration_seconds",
+          "bigint"
+        ],
+        [
+          "vehicle_type",
+          "string"
+        ],
+        [
+          "driver_rating",
+          "decimal(3,1)"
+        ],
+        [
+          "source_revision",
+          "int"
+        ],
+        [
+          "_source_file",
+          "string"
+        ],
+        [
+          "_source_sha256",
+          "string"
+        ],
+        [
+          "_payload_hash",
+          "string"
+        ]
+      ],
+      "version": 2
+    },
+    "committed_table_unchanged": true,
+    "exception_type": "Py4JJavaError",
+    "kind": "constraint",
+    "message_excerpt": "An error occurred while calling o8139.save.\n: org.apache.spark.sql.delta.schema.DeltaInvariantViolationException: [DELTA_VIOLATE_CONSTRAINT_WITH_VALUES] CHECK constraint fare_nonnegative ((fare_sar IS NOT NULL) AND (fare_sar >= 0)) violated by row with values:\n - fare_sar : -5.00\n\tat org.apache.spark.sql.delta.schema.DeltaInvariantViolationException$.getConstraintViolationWithValuesException(InvariantViolationException.scala:78)\n\tat org.apache.spark.sql.delta.schema.DeltaInvariantViolationExcept"
+  },
+  "dataset_manifest_sha256": "20a7e45bed2980b9394c10e8532da3b9f40f614366bb2df26a88610253e768e3",
+  "engine_executed": true,
+  "expected_final_fare_sar": "1880.60",
+  "history": [
+    {
+      "clusterId": null,
+      "engineInfo": "Apache-Spark/3.5.8 Delta-Lake/3.3.3",
+      "isBlindAppend": false,
+      "isolationLevel": "Serializable",
+      "job": null,
+      "notebook": null,
+      "operation": "MERGE",
+      "operationMetrics": {
+        "executionTimeMs": "3741",
+        "materializeSourceTimeMs": "1",
+        "numOutputRows": "75",
+        "numSourceRows": "75",
+        "numTargetBytesAdded": "12733",
+        "numTargetBytesRemoved": "17632",
+        "numTargetChangeFilesAdded": "0",
+        "numTargetDeletionVectorsAdded": "0",
+        "numTargetDeletionVectorsRemoved": "0",
+        "numTargetDeletionVectorsUpdated": "0",
+        "numTargetFilesAdded": "1",
+        "numTargetFilesRemoved": "2",
+        "numTargetRowsCopied": "75",
+        "numTargetRowsDeleted": "0",
+        "numTargetRowsInserted": "0",
+        "numTargetRowsMatchedDeleted": "0",
+        "numTargetRowsMatchedUpdated": "0",
+        "numTargetRowsNotMatchedBySourceDeleted": "0",
+        "numTargetRowsNotMatchedBySourceUpdated": "0",
+        "numTargetRowsUpdated": "0",
+        "rewriteTimeMs": "2476",
+        "scanTimeMs": "1259"
+      },
+      "operationParameters": {
+        "matchedPredicates": "[{\"predicate\":\"(source_revision#92699 > source_revision#100225)\",\"actionType\":\"update\"}]",
+        "notMatchedBySourcePredicates": "[]",
+        "notMatchedPredicates": "[{\"actionType\":\"insert\"}]",
+        "predicate": "[\"(trip_id#100214 = trip_id#92688)\"]"
+      },
+      "readVersion": 3,
+      "timestamp": "2026-09-15 13:23:52.933000",
+      "userId": null,
+      "userMetadata": null,
+      "userName": null,
+      "version": 4
+    },
+    {
+      "clusterId": null,
+      "engineInfo": "Apache-Spark/3.5.8 Delta-Lake/3.3.3",
+      "isBlindAppend": false,
+      "isolationLevel": "Serializable",
+      "job": null,
+      "notebook": null,
+      "operation": "MERGE",
+      "operationMetrics": {
+        "executionTimeMs": "1967",
+        "materializeSourceTimeMs": "548",
+        "numOutputRows": "72",
+        "numSourceRows": "1",
+        "numTargetBytesAdded": "12263",
+        "numTargetBytesRemoved": "12263",
+        "numTargetChangeFilesAdded": "0",
+        "numTargetDeletionVectorsAdded": "0",
+        "numTargetDeletionVectorsRemoved": "0",
+        "numTargetDeletionVectorsUpdated": "0",
+        "numTargetFilesAdded": "1",
+        "numTargetFilesRemoved": "1",
+        "numTargetRowsCopied": "72",
+        "numTargetRowsDeleted": "0",
+        "numTargetRowsInserted": "0",
+        "numTargetRowsMatchedDeleted": "0",
+        "numTargetRowsMatchedUpdated": "0",
+        "numTargetRowsNotMatchedBySourceDeleted": "0",
+        "numTargetRowsNotMatchedBySourceUpdated": "0",
+        "numTargetRowsUpdated": "0",
+        "rewriteTimeMs": "551",
+        "scanTimeMs": "858"
+      },
+      "operationParameters": {
+        "matchedPredicates": "[{\"predicate\":\"(source_revision#93138 > source_revision#97740)\",\"actionType\":\"update\"}]",
+        "notMatchedBySourcePredicates": "[]",
+        "notMatchedPredicates": "[{\"actionType\":\"insert\"}]",
+        "predicate": "[\"(trip_id#97729 = trip_id#93105)\"]"
+      },
+      "readVersion": 2,
+      "timestamp": "2026-09-15 13:23:43.359000",
+      "userId": null,
+      "userMetadata": null,
+      "userName": null,
+      "version": 3
+    },
+    {
+      "clusterId": null,
+      "engineInfo": "Apache-Spark/3.5.8 Delta-Lake/3.3.3",
+      "isBlindAppend": false,
+      "isolationLevel": "Serializable",
+      "job": null,
+      "notebook": null,
+      "operation": "MERGE",
+      "operationMetrics": {
+        "executionTimeMs": "2036",
+        "materializeSourceTimeMs": "278",
+        "numOutputRows": "72",
+        "numSourceRows": "1",
+        "numTargetBytesAdded": "12263",
+        "numTargetBytesRemoved": "12391",
+        "numTargetChangeFilesAdded": "0",
+        "numTargetDeletionVectorsAdded": "0",
+        "numTargetDeletionVectorsRemoved": "0",
+        "numTargetDeletionVectorsUpdated": "0",
+        "numTargetFilesAdded": "1",
+        "numTargetFilesRemoved": "1",
+        "numTargetRowsCopied": "71",
+        "numTargetRowsDeleted": "0",
+        "numTargetRowsInserted": "0",
+        "numTargetRowsMatchedDeleted": "0",
+        "numTargetRowsMatchedUpdated": "1",
+        "numTargetRowsNotMatchedBySourceDeleted": "0",
+        "numTargetRowsNotMatchedBySourceUpdated": "0",
+        "numTargetRowsUpdated": "1",
+        "rewriteTimeMs": "924",
+        "scanTimeMs": "825"
+      },
+      "operationParameters": {
+        "matchedPredicates": "[{\"predicate\":\"(source_revision#93138 > source_revision#95105)\",\"actionType\":\"update\"}]",
+        "notMatchedBySourcePredicates": "[]",
+        "notMatchedPredicates": "[{\"actionType\":\"insert\"}]",
+        "predicate": "[\"(trip_id#95094 = trip_id#93105)\"]"
+      },
+      "readVersion": 1,
+      "timestamp": "2026-09-15 13:23:32.935000",
+      "userId": null,
+      "userMetadata": null,
+      "userName": null,
+      "version": 2
+    },
+    {
+      "clusterId": null,
+      "engineInfo": "Apache-Spark/3.5.8 Delta-Lake/3.3.3",
+      "isBlindAppend": false,
+      "isolationLevel": "Serializable",
+      "job": null,
+      "notebook": null,
+      "operation": "MERGE",
+      "operationMetrics": {
+        "executionTimeMs": "1377",
+        "materializeSourceTimeMs": "1",
+        "numOutputRows": "3",
+        "numSourceRows": "75",
+        "numTargetBytesAdded": "5369",
+        "numTargetBytesRemoved": "0",
+        "numTargetChangeFilesAdded": "0",
+        "numTargetDeletionVectorsAdded": "0",
+        "numTargetDeletionVectorsRemoved": "0",
+        "numTargetDeletionVectorsUpdated": "0",
+        "numTargetFilesAdded": "1",
+        "numTargetFilesRemoved": "0",
+        "numTargetRowsCopied": "0",
+        "numTargetRowsDeleted": "0",
+        "numTargetRowsInserted": "3",
+        "numTargetRowsMatchedDeleted": "0",
+        "numTargetRowsMatchedUpdated": "0",
+        "numTargetRowsNotMatchedBySourceDeleted": "0",
+        "numTargetRowsNotMatchedBySourceUpdated": "0",
+        "numTargetRowsUpdated": "0",
+        "rewriteTimeMs": "1372",
+        "scanTimeMs": "0"
+      },
+      "operationParameters": {
+        "matchedPredicates": "[]",
+        "notMatchedBySourcePredicates": "[]",
+        "notMatchedPredicates": "[{\"actionType\":\"insert\"}]",
+        "predicate": "[\"(trip_id#30180 = trip_id#27354)\"]"
+      },
+      "readVersion": 0,
+      "timestamp": "2026-09-15 13:18:12.096000",
+      "userId": null,
+      "userMetadata": null,
+      "userName": null,
+      "version": 1
+    },
+    {
+      "clusterId": null,
+      "engineInfo": "Apache-Spark/3.5.8 Delta-Lake/3.3.3",
+      "isBlindAppend": true,
+      "isolationLevel": "Serializable",
+      "job": null,
+      "notebook": null,
+      "operation": "WRITE",
+      "operationMetrics": {
+        "numFiles": "1",
+        "numOutputBytes": "12391",
+        "numOutputRows": "72"
+      },
+      "operationParameters": {
+        "mode": "ErrorIfExists",
+        "partitionBy": "[]"
+      },
+      "readVersion": null,
+      "timestamp": "2026-09-15 13:17:30.789000",
+      "userId": null,
+      "userMetadata": null,
+      "userName": null,
+      "version": 0
+    }
+  ],
+  "not_proven": [
+    "concurrent writer stress",
+    "multi-table ACID",
+    "crash durability stress",
+    "cloud deployment"
+  ],
+  "past_version_read": 1,
+  "run_id": "a828609d774e4129801317489e17c59a",
+  "scope": "DAY03_TRANSACTIONS_ENGINE",
+  "spark_version": "3.5.8"
+}

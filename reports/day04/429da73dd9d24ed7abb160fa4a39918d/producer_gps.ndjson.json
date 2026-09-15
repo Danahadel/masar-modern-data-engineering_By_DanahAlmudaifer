@@ -1,0 +1,1090 @@
+{
+  "acknowledgments": [
+    {
+      "offset": 0,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 1,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 2,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 0,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 1,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 2,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 3,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 4,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 5,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 6,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 7,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 8,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 9,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 10,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 11,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 3,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 4,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 5,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 12,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 13,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 14,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 6,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 7,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 8,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 15,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 16,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 17,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 9,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 10,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 11,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 18,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 19,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 20,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 12,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 13,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 14,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 21,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 22,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 23,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 15,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 16,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 17,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 18,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 19,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 20,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 21,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 22,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 23,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 24,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 25,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 26,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 27,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 28,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 29,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 24,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 25,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 26,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 30,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 31,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 32,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 33,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 34,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 35,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 27,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 28,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 29,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 36,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 37,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 38,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 30,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 31,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 32,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 33,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 34,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 35,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 36,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 37,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 38,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 39,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 40,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 41,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 39,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 40,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 41,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 42,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 43,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 44,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 42,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 43,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 44,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 45,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 46,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 47,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 45,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 46,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 47,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 48,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 49,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 50,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 51,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 52,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 53,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 54,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 55,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 56,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 48,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 49,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 50,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 51,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 52,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 53,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 54,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 55,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 56,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 57,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 58,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 59,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 57,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 58,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 59,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 60,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 61,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 62,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 60,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 61,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 62,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 63,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 64,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 65,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 63,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 64,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 65,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 66,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 67,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 68,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 66,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 67,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 68,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 69,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 70,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 71,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 69,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 70,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 71,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 72,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 73,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 74,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 72,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 73,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 74,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 75,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 76,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 77,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 75,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 76,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 77,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 78,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 79,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 80,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 78,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 79,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 80,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 81,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 82,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 83,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 81,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 82,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 83,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 84,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 85,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 86,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 87,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 88,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 89,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 84,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 85,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 86,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 87,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 88,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 89,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 90,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 91,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 92,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 93,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 94,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 95,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 96,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 97,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 98,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 90,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 91,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 92,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 93,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 94,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 95,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 96,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 97,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 98,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 99,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 100,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 101,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 102,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 103,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 104,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 99,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 100,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 101,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 105,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 106,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 107,
+      "partition": 0,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 102,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 103,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 104,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 105,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 106,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    },
+    {
+      "offset": 107,
+      "partition": 1,
+      "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+    }
+  ],
+  "file": "gps.ndjson",
+  "file_sha256": "5f9c4c39558681d3cec62189721e95526d7c61f757851a9ef1e2d8c1fc2af288",
+  "kafka_executed": true,
+  "sent_confirmed": 216,
+  "status": "ACKNOWLEDGED",
+  "topic": "masar-day04-429da73dd9d24ed7abb160fa4a39918d"
+}

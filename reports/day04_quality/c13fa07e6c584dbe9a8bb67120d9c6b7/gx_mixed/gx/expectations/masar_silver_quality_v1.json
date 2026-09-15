@@ -1,0 +1,281 @@
+{
+  "expectations": [
+    {
+      "id": "fda2facd-b06f-461a-adc6-d0fd3d0b43b6",
+      "kwargs": {
+        "column_list": [
+          "trip_id",
+          "driver_id",
+          "city",
+          "start_utc",
+          "end_utc",
+          "trip_date_local",
+          "fare_sar",
+          "distance_km",
+          "duration_seconds",
+          "vehicle_type",
+          "driver_rating",
+          "source_revision"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_table_columns_to_match_ordered_list"
+    },
+    {
+      "id": "861d45ac-0305-4648-a13e-8d29ea4498ca",
+      "kwargs": {
+        "value": 75
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_table_row_count_to_equal"
+    },
+    {
+      "id": "9f4f6e78-7633-4ff3-8ce3-98275572c62f",
+      "kwargs": {
+        "column": "trip_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "4361ac70-f85c-48e8-a466-9c99153718a0",
+      "kwargs": {
+        "column": "driver_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "f75485f0-bb8b-4a82-bca0-b7e908ddf7dc",
+      "kwargs": {
+        "column": "city"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "0eb40307-55db-4c0d-bf5f-fc30996ed907",
+      "kwargs": {
+        "column": "start_utc"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "5e2369cd-46ba-4cf6-9b4e-8a73cbeeaa27",
+      "kwargs": {
+        "column": "end_utc"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "7115dd5e-d0fd-4f5f-939f-d97a2a74cdcc",
+      "kwargs": {
+        "column": "trip_date_local"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "95ab2bab-f066-4dd2-9c8c-f637655c21a4",
+      "kwargs": {
+        "column": "fare_sar"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "0af87630-fee6-4f46-8579-6091a1d383cb",
+      "kwargs": {
+        "column": "distance_km"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "18146a4f-4541-4207-93f3-f5e5dbc19e83",
+      "kwargs": {
+        "column": "duration_seconds"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "183a9dba-f49b-4c2b-9a12-ee2ac4303cce",
+      "kwargs": {
+        "column": "vehicle_type"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "afa8ac54-8f12-430e-bd4d-e625835a7e61",
+      "kwargs": {
+        "column": "driver_rating"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "0b32041f-b18a-4451-a4ce-f9aec7d4a1d3",
+      "kwargs": {
+        "column": "source_revision"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "ec813e2c-37bc-4d12-b65d-c9af7899ac02",
+      "kwargs": {
+        "column": "trip_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "10cc8755-254a-4e1c-9d0b-a11f0abceb05",
+      "kwargs": {
+        "column": "trip_id",
+        "regex": "^SYN_[A-Z0-9]+$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "6bf94270-0040-40f9-8530-4f868349713d",
+      "kwargs": {
+        "column": "driver_id",
+        "value_set": [
+          "SYN_D001",
+          "SYN_D002",
+          "SYN_D003",
+          "SYN_D004",
+          "SYN_D005",
+          "SYN_D006"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "4e46460c-9935-4467-8bc2-dbb3ef82f21a",
+      "kwargs": {
+        "column": "city",
+        "value_set": [
+          "Riyadh",
+          "Jeddah",
+          "Dammam"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "0363959b-ca1d-450b-b05d-a40088e164b4",
+      "kwargs": {
+        "column": "fare_sar",
+        "max_value": 10000000000.0,
+        "min_value": 0.0,
+        "strict_max": true
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "8f8f2208-80c8-4cf2-b53a-0a1819004827",
+      "kwargs": {
+        "column": "distance_km",
+        "max_value": 10000000000.0,
+        "min_value": 0.0,
+        "strict_max": true,
+        "strict_min": true
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "8b0f8cb7-dac2-4883-b300-14c07287d5ce",
+      "kwargs": {
+        "column": "duration_seconds",
+        "min_value": 0.0,
+        "strict_min": true
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "c20a0324-63c0-4df2-aaab-7805b712656a",
+      "kwargs": {
+        "column": "source_revision",
+        "min_value": 1.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "39937464-2805-4df6-8ff1-2d194592c897",
+      "kwargs": {
+        "column": "driver_rating",
+        "max_value": 5.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "abf901b0-9701-448f-a6db-5c29d5f81e2f",
+      "kwargs": {
+        "column": "vehicle_type",
+        "value_set": [
+          "sedan",
+          "suv"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "6690f96c-d803-4b58-92d0-ca4ef5da014d",
+      "kwargs": {
+        "column_A": "end_utc",
+        "column_B": "start_utc",
+        "ignore_row_if": "either_value_is_missing",
+        "or_equal": false
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_pair_values_a_to_be_greater_than_b"
+    }
+  ],
+  "id": "07b7e5af-8942-42f8-b5bd-816115d48c15",
+  "meta": {
+    "great_expectations_version": "1.7.0"
+  },
+  "name": "masar_silver_quality_v1",
+  "notes": null
+}

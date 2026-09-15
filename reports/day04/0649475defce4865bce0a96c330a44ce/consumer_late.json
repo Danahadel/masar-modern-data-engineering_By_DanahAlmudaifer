@@ -1,0 +1,68 @@
+{
+  "business_event_digest": "9ef816903d7f1577b5fa33f55dca3fa3e2e0849501f351e53cee98658549db81",
+  "checkpoint": "checkpoints/day04/gps_0649475defce4865bce0a96c330a44ce",
+  "phase": "late",
+  "progress": [
+    {
+      "batchId": 4,
+      "durationMs": {
+        "addBatch": 1300,
+        "commitOffsets": 93,
+        "getBatch": 1,
+        "latestOffset": 31,
+        "queryPlanning": 53,
+        "triggerExecution": 1577,
+        "walCommit": 86
+      },
+      "id": "8e69726e-6df3-4d43-8685-bf1dfcb4bb3f",
+      "inputRowsPerSecond": 0.0,
+      "name": "masar_gps_0649475defce4865bce0a96c330a44ce",
+      "numInputRows": 1,
+      "processedRowsPerSecond": 0.6341154090044389,
+      "runId": "a9028cff-2331-49b0-8bfb-ef55139b351b",
+      "sink": {
+        "description": "DeltaSink[/content/masar-modern-data-engineering/outputs/day01_bronze_y2womh5z/mini_lakehouse/bronze/gps_stream/0649475defce4865bce0a96c330a44ce]",
+        "numOutputRows": -1
+      },
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[masar-day04-0649475defce4865bce0a96c330a44ce]]",
+          "endOffset": {
+            "masar-day04-0649475defce4865bce0a96c330a44ce": {
+              "0": 111,
+              "1": 108
+            }
+          },
+          "inputRowsPerSecond": 0.0,
+          "latestOffset": {
+            "masar-day04-0649475defce4865bce0a96c330a44ce": {
+              "0": 111,
+              "1": 108
+            }
+          },
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          },
+          "numInputRows": 1,
+          "processedRowsPerSecond": 0.6341154090044389,
+          "startOffset": {
+            "masar-day04-0649475defce4865bce0a96c330a44ce": {
+              "0": 110,
+              "1": 108
+            }
+          }
+        }
+      ],
+      "stateOperators": [],
+      "timestamp": "2026-09-15T13:47:31.097Z"
+    }
+  ],
+  "query_id": "8e69726e-6df3-4d43-8685-bf1dfcb4bb3f",
+  "query_run_id": "a9028cff-2331-49b0-8bfb-ef55139b351b",
+  "target": "mini_lakehouse/bronze/gps_stream/0649475defce4865bce0a96c330a44ce",
+  "transport_rows": 219,
+  "unique_event_ids": 217,
+  "unique_transport_keys": 219
+}
