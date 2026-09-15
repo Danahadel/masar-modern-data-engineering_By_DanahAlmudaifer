@@ -1,4 +1,4 @@
-# Masar Mini-Lakehouse — Danah Almudaifer
+# Masar Mini-Lakehouse — Danah Adel Almudaifer
 
 Masar Mini-Lakehouse is my end-to-end data-engineering capstone for a fictional mobility operator. It builds one reproducible lineage from raw batch and GPS event feeds into trustworthy reporting tables and point-in-time-correct AI feature tables. The project uses **synthetic data only**.
 
