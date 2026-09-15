@@ -67,8 +67,8 @@ one trusted business trip
 Clone my fork and use the `develop` branch:
 
 ```bash
-git clone https://github.com/Danahadel/masar-modern-data-engineering_By_DanahAlmudaifer.git
-cd masar-modern-data-engineering_By_DanahAlmudaifer
+git clone https://github.com/Danahadel/masar-modern-data-engineering_By_DanahAlmudaifer.git masar-modern-data-engineering
+cd masar-modern-data-engineering
 git switch develop
 ```
 
