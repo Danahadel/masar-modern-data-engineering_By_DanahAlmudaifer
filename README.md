@@ -51,26 +51,82 @@ one trusted business trip
 - **Gold/BI:** explicit reporting grains and reconciled totals.
 - **AI:** feature availability is checked at the prediction cut-off and future labels are not fabricated.
 
-## Environment verified in my Colab run
-- Python **3.11.13**
-- Java **17**
-- PySpark **3.5.8**
-- Delta Spark **3.3.3**
-- py4j **0.10.9.9**
-- Kafka **4.0.2**
-- kafka-python **2.2.15**
-- Great Expectations **1.7.0**
-- pandas **2.2.3**
-- dbt-core **1.9.8**
-- dbt-spark **1.9.1**
+### Environment setup
 
-## Exact environment setup
+The tested course environment uses Python 3.11 and Java 17.
 
 From the repository root:
 
 ```bash
-python -m pip install -r requirements.txt
+python3.11 -m venv .venv
+source .venv/bin/activate
+
+python --version
+java -version
+
+python -m pip install -r requirements-course.txt -r requirements-day01.txt
+python -m pip check
 ```
+
+`requirements-course.txt` includes the pinned Day 4 and dbt dependencies, while
+`requirements-day01.txt` provides the notebook/Jupyter environment.
+
+For Day 4, the supplied Kafka setup also uses:
+
+```bash
+python -m pip install -r requirements-day04.txt
+python -m pip check
+```
+
+See `docs/SETUP.md` and `day04/SETUP.md` for the complete environment and Kafka setup.
+
+### Notebook execution order
+
+Run the notebooks in dependency order:
+
+```text
+1. day01/STUDENT.ipynb  -> Labs 01–02
+2. day02/STUDENT.ipynb  -> Lab 03
+3. day03/STUDENT.ipynb  -> Lab 04
+4. day04/STUDENT.ipynb  -> Labs 05–06
+5. day05/STUDENT.ipynb  -> Labs 07–08
+```
+
+### Restoring handoff archives between sessions
+
+Each day's final notebook cell creates an ignored handoff ZIP under `outputs/`.
+When continuing in a fresh session, place the previous day's archive back under
+`outputs/`, then extract it from the repository root so its relative paths are
+preserved.
+
+For Day 2:
+
+```bash
+cd /content/masar-modern-data-engineering
+unzip -o outputs/day01_handoff.zip -d .
+```
+
+For Day 3:
+
+```bash
+unzip -o outputs/day02_handoff.zip -d .
+```
+
+For Day 4:
+
+```bash
+unzip -o outputs/day03_handoff.zip -d .
+```
+
+For Day 5:
+
+```bash
+unzip -o outputs/day04_handoff.zip -d .
+```
+
+The handoff ZIPs are runtime/session-transfer artifacts and are intentionally
+excluded from normal Git commits. Day 2's separate dbt workspace evidence
+should also be retained because later handoffs do not replace it.
 
 ## How to run
 
