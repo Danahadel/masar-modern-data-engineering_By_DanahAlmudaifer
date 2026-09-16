@@ -3,6 +3,11 @@
 ## What I did
 I compared an always-on compute assumption with scheduled compute using hypothetical teaching units, then measured CSV and Delta scans using Spark and checked that both returned the same logical aggregate.
 
+The notebook output and `reports/benchmark.json` represent separate executions
+of the same benchmark. Wall-clock timings varied, while row count, non-null fare
+count and fare total remained identical. I therefore report the timings as
+run-specific observations rather than a general performance ranking.
+
 ## Cost assumptions and result
 The values are **teaching units, not currency**.
 
