@@ -34,3 +34,25 @@ Median: **2.8934 s**
 
 ## Interpretation
 Delta was slower in this tiny run. I do not claim a Delta speed-up from this dataset. The useful evidence is that both scans returned equal results and that I inspected/measured the actual execution rather than making an unsupported performance claim.
+
+
+## Repeated-run note
+
+The benchmark was executed more than once during development on the same
+72-row synthetic population.
+
+The saved notebook contains an earlier run, while `reports/benchmark.json`
+contains a later repeated run. The exact wall-clock timings varied between
+executions, which is expected for this small local Spark workload because
+OS, JVM and metadata caches were not controlled.
+
+Across the runs, the logical result remained unchanged:
+
+- 72 rows
+- 72 non-null fares
+- fare total = 1794.60 SAR
+- CSV and Delta payloads matched
+- query-result validation passed
+
+Therefore, these timings are treated only as local observations and not as
+evidence that one storage format is generally faster than the other.
