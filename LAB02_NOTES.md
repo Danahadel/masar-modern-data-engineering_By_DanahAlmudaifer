@@ -28,4 +28,13 @@ Delta was slower in this tiny local run. I do not use this result to claim that 
 I separate the architectural cost argument from the local performance measurement. The cost model explains compute-storage separation; the Spark benchmark records what actually happened on this small dataset.
 
 ## Blockers
-None.
+### Timing variability
+
+I repeated the local benchmark during development. The exact scan timings
+changed between runs, while the logical result remained identical.
+
+This is expected for a small local Spark benchmark because JVM warm-up,
+filesystem state, metadata caching and OS caching were not fully controlled.
+
+For that reason, I do not claim a general CSV-versus-Delta performance
+ranking from these measurements.
