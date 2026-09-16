@@ -64,6 +64,14 @@ one trusted business trip
 - dbt-core **1.9.8**
 - dbt-spark **1.9.1**
 
+## Exact environment setup
+
+From the repository root:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 ## How to run
 
 Clone my fork and use the `develop` branch:
